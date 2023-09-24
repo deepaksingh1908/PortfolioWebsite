@@ -85,8 +85,6 @@
 .details {
   justify-content: center;
   display: flex;
-
-  /* padding-right: 50vh; */
   flex-direction: column;
 }
 
@@ -100,10 +98,6 @@
   font-weight: bold;
   color: rgb(249, 249, 249);
 }
-.right {
-  float: right;
-}
-
 .career {
   font-size: 3rem;
   color: white;
@@ -454,8 +448,8 @@
     margin-left: 0;
   }
 }
-@media screen and (max-width: 400px) {
-  .containerinfo .sidebar li a {
+@media screen and (max-width: 600px) {
+  .containerinfo .sidebar li a{
     text-align: center;
     float: none;
     width: fit-content;
@@ -466,4 +460,20 @@
   .details .main {
     font-size: 2rem;
   }
+}
+@media screen and (max-width: 600px) {
+.hello {
+  font-size: 2rem;
+  color: white;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(249, 249, 249);
+}
+.career {
+  font-size: 1rem;
+  color: white;
+}
 }
