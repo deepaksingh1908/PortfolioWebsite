@@ -449,6 +449,11 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .sidebar .about .education .skills .projects .contactme{
+    height: auto;
+  }
+}
+@media screen and (max-width: 600px) {
   .containerinfo .sidebar li a{
     text-align: center;
     float: none;
