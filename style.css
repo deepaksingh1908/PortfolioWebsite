@@ -78,7 +78,7 @@
 .infoContainer {
   display: flex;
   margin: 120px auto;
-  height: 50vh;
+  /* height: 40vh; */
   width: 80vw;
   justify-content: space-around;
 }
@@ -702,7 +702,8 @@
   }
   .containerinfo {
     display: flex;
-    height: auto;
+    /* height: auto; */
+    height:50vh;
   }
   .about {
     height: auto;
