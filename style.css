@@ -45,6 +45,7 @@
   display: flex;
   align-items: center;
   position: relative;
+
 }
 
 .sidebar li {
@@ -269,7 +270,7 @@
 
 .textbox {
   padding: 5px 10px;
-  background: rgb(243, 239, 239);
+  background: rgb(49, 55, 65);
   border-radius: 15px;
 
   font-size: 0.8rem;
@@ -279,8 +280,9 @@
   color: rgb(0, 215, 187);
   padding-bottom: 8px;
 }
-.textbox p {
+.textbox ul {
   letter-spacing: 0.4px;
+  color: white
 }
 
 .title1 {
@@ -449,6 +451,13 @@
   ::-webkit-scrollbar {
     width: 2px;
   }
+  .infoContainer {
+    display: flex;
+    margin: 50px auto;
+    height: 50vh;
+    width: 80vw;
+    justify-content: space-around;
+  }
 
   .hello {
     font-size: 2rem;
@@ -468,9 +477,12 @@
     top: 0;
     display: flex;
     justify-content: center;
-    position: relative;
+    position: fixed;
     width: 100%;
     height: 50px;
+  }
+  .sidebar ul{
+    padding-left: unset;
   }
   .sidebar li a {
     padding: 10px 5px;
@@ -488,7 +500,7 @@
   }
   .aboutme {
     font-size: 2rem;
-    padding-top: 30px;
+    padding: 30px;
     align-items: center;
     text-align: center;
   }
@@ -497,9 +509,8 @@
   }
 
   .intro {
-    font-size: 1rem;
-    padding: 10px;
-    letter-spacing: unset;
+    font-size: 1.2rem;
+    padding: 20px 20%;
   }
 
   .container2 {
@@ -530,8 +541,11 @@
   }
 
   .edu {
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-top: 10px;
+  }
+  .edu1{
+    padding: 20px;
   }
 
   .skills {
@@ -544,13 +558,16 @@
     display: flex;
     padding: 10px;
   }
+  .HTML{
+    padding: 10px;
+  }
   .projects {
     height: auto;
   }
   .projects span {
     text-align: center;
     justify-content: center;
-    padding: 5px;
+    padding: 15px;
   }
 
   .projects1 {
@@ -560,19 +577,19 @@
   }
 
   .container1 {
-    padding: 10px 15px;
+    padding: 20px 15px;
   }
 
   .textbox {
     padding: 5px 10px;
-    font-size: 0.5em;
+    font-size: 0.8em;
   }
 
   .textbox h4 {
     padding-bottom: 5px;
     font-size: 1rem;
   }
-  .textbox p {
+  .textbox ul {
     letter-spacing: unset;
   }
   .contactme {
@@ -581,7 +598,7 @@
 
   .form-label {
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .contact1 {
     text-align: center;
@@ -601,12 +618,6 @@
 
 
 @media screen and (max-width: 1200px) and (min-width: 900px) {
-  /* .sidebar li a {
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 15px;
-  } */
   div.content {
     margin-left: 0;
   }
@@ -637,7 +648,7 @@
     top: 0;
     display: flex;
     justify-content: center;
-    position: relative;
+    position: fixed;
     width: 100%;
     height: 50px;
   }
@@ -646,7 +657,7 @@
     font-weight: bold;
     font-size: 0.8rem;
     letter-spacing: unset;
-    position: relative;
+    position: fixed;
   }
   .containerinfo {
     display: flex;
