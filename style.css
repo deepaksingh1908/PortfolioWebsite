@@ -426,6 +426,13 @@
   div.content {
     margin-left: 0;
   }
+  .infoContainer {
+    display: flex;
+    margin: 50px auto;
+    height: 50vh;
+    width: 80vw;
+    justify-content: space-around;
+  }
   .hello{
     font-size: 2rem;
   }
@@ -440,9 +447,29 @@
   .details .main {
     font-size: 2.6rem;
   }
+  .containerinfo {
+    display: flex;
+    height: auto;
+  }
+  .about {
+    height: auto;
+  }
+  .education {
+    height: auto;
+  }
+  .skills {
+    height: auto;
+  }
+  .projects {
+    height: auto;
+  }
+  .contactme {
+    height: auto;
+  }
+
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px){
   .containerinfo .sidebar li a {
     text-align: center;
     float: none;
@@ -653,11 +680,10 @@
     height: 50px;
   }
   .sidebar li a {
-    padding: 10px 5px;
+    padding: 10px 20px;
     font-weight: bold;
-    font-size: 0.8rem;
-    letter-spacing: unset;
-    position: fixed;
+    font-size: 1rem;
+    /* position: fixed; */
   }
   .containerinfo {
     display: flex;
