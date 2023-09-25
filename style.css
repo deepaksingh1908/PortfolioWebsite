@@ -414,17 +414,7 @@
   }
 }
 
-
 @media screen and (max-width: 900px) and (min-width: 600px) {
-  /* .sidebar {
-    position: relative;
-  }
-   {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 49%;
-  } */
   .sidebar li a {
     float: left;
     display: block;
@@ -434,19 +424,16 @@
   div.content {
     margin-left: 0;
   }
-   {
+  .hello{
     font-size: 2rem;
-    color: white;
   }
 
   .name {
     font-size: 3.5rem;
     font-weight: bold;
-    color: rgb(249, 249, 249);
   }
   .career {
     font-size: 1.6rem;
-    color: white;
   }
   .details .main {
     font-size: 2.6rem;
@@ -465,17 +452,14 @@
 
   .hello {
     font-size: 2rem;
-    color: white;
   }
 
   .name {
     font-size: 3rem;
     font-weight: bold;
-    color: rgb(249, 249, 249);
   }
   .career {
     font-size: 1rem;
-    color: white;
   }
   .details .main {
     font-size: 2rem;
@@ -484,19 +468,13 @@
     top: 0;
     display: flex;
     justify-content: center;
-    /* overflow: hidden; */
     position: relative;
     width: 100%;
     height: 50px;
-    z-index: 9;
   }
   .sidebar li a {
-    text-decoration: none;
-    color: white;
     padding: 10px 5px;
-    transition: 0.6s;
     font-weight: bold;
-    box-sizing: border-box;
     font-size: 0.8rem;
     letter-spacing: unset;
     position: relative;
@@ -504,10 +482,8 @@
   .containerinfo {
     display: flex;
     height: auto;
-    width: 100%;
   }
   .about {
-    width: 100%;
     height: auto;
   }
   .aboutme {
@@ -515,47 +491,36 @@
     padding-top: 30px;
     align-items: center;
     text-align: center;
-    color: rgb(0, 215, 187);
   }
-  .button{
+  .button {
     padding: 1px 20px;
   }
-  
+
   .intro {
     font-size: 1rem;
     padding: 10px;
-    text-align: center;
-    justify-content: center;
     letter-spacing: unset;
-    font-style: normal;
-    font-family: "Fuggles", cursive;
-    font-family: "Raleway", sans-serif;
-    color: rgb(255, 255, 255);
-    font-weight: 100;
   }
-  
+
   .container2 {
     display: flex;
     text-align: center;
     justify-content: center;
     padding: 10px 10px;
   }
-  
+
   .details2 {
     font-size: 1rem;
     padding: 10px 5px;
-    color: rgb(0, 215, 187);
-    font-weight: bold;
+
   }
-  
+
   .details3 {
     font-size: 1rem;
     padding: 10px 5px;
-    color: white;
   }
 
   .education {
-    width: 100%;
     height: auto;
   }
 
@@ -563,14 +528,13 @@
     font-size: 2rem;
     padding: 10px;
   }
-  
+
   .edu {
     font-size: 1rem;
     padding-top: 10px;
   }
 
   .skills {
-    width: 100%;
     height: auto;
     padding: 4vh 15%;
   }
@@ -579,7 +543,6 @@
     justify-content: center;
     display: flex;
     padding: 10px;
-    color: rgb(0, 215, 187);
   }
   .projects {
     height: auto;
@@ -589,46 +552,49 @@
     justify-content: center;
     padding: 5px;
   }
-  
+
   .projects1 {
     text-align: center;
     font-size: 2rem;
     padding: 15px;
-    color: rgb(0, 215, 187);
   }
-  
+
   .container1 {
     padding: 10px 15px;
   }
-  
+
   .textbox {
     padding: 5px 10px;
-    background: rgb(243, 239, 239);
-    border-radius: 15px;
-    font-size: 0.r5em;
+    font-size: 0.5em;
   }
-  
+
   .textbox h4 {
-    color: rgb(0, 215, 187);
     padding-bottom: 5px;
     font-size: 1rem;
   }
   .textbox p {
-    letter-spacing:unset;
+    letter-spacing: unset;
   }
-  .contactme{
+  .contactme {
     height: auto;
   }
 
   .form-label {
     font-weight: bold;
     font-size: 1rem;
-    color: rgb(0, 215, 187);
   }
   .contact1 {
     text-align: center;
-    color: rgb(0, 215, 187);
     font-size: 2rem;
   }
-
+  .footer-basic .copyright {
+    margin-top: 5px;
+    font-size: 0.8rem;
+  }
+  .footer-basic li {
+    padding: 0 5px;
+}
+  .footer-basic ul {
+    line-height: 1;
+}
 }
