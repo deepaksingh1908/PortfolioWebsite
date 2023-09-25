@@ -302,13 +302,13 @@
   font-size: 4rem;
 }
 
-.mb-3 {
+/* .mb-3 {
   padding: 20px;
   display: flex;
   flex-direction: column;
   width: 30%;
   height: 10vh;
-}
+} */
 
 .formlabel {
   color: white;
@@ -407,29 +407,16 @@
   background: linear-gradient(#642bff, #ff22e6);
   border-radius: 20px;
 }
-@media screen and(min-width: 600px) {
-  .containerinfo {
-    width: 100%;
-  }
-}
+
 @media only screen and (max-width: 600px) {
   .containerinfo {
     background-color: lightblue;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
 
-@media screen and (max-width: 940px) {
-  .sidebar {
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  /* .sidebar {
     position: relative;
   }
    {
@@ -437,7 +424,7 @@
     right: 0;
     top: 0;
     width: 49%;
-  }
+  } */
   .sidebar li a {
     float: left;
     display: block;
@@ -447,38 +434,201 @@
   div.content {
     margin-left: 0;
   }
-}
-@media screen and (max-width: 600px) {
-  .sidebar .about .education .skills .projects .contactme{
-    height: auto;
+   {
+    font-size: 2rem;
+    color: white;
+  }
+
+  .name {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgb(249, 249, 249);
+  }
+  .career {
+    font-size: 1.6rem;
+    color: white;
+  }
+  .details .main {
+    font-size: 2.6rem;
   }
 }
+
 @media screen and (max-width: 600px) {
-  .containerinfo .sidebar li a{
+  .containerinfo .sidebar li a {
     text-align: center;
     float: none;
     width: fit-content;
   }
-}
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
 
-@media screen and (max-width: 400px) {
+  .hello {
+    font-size: 2rem;
+    color: white;
+  }
+
+  .name {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(249, 249, 249);
+  }
+  .career {
+    font-size: 1rem;
+    color: white;
+  }
   .details .main {
     font-size: 2rem;
   }
-}
-@media screen and (max-width: 600px) {
-.hello {
-  font-size: 2rem;
-  color: white;
-}
+  .sidebar {
+    top: 0;
+    display: flex;
+    justify-content: center;
+    /* overflow: hidden; */
+    position: relative;
+    width: 100%;
+    height: 50px;
+    z-index: 9;
+  }
+  .sidebar li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 5px;
+    transition: 0.6s;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    letter-spacing: unset;
+    position: relative;
+  }
+  .containerinfo {
+    display: flex;
+    height: auto;
+    width: 100%;
+  }
+  .about {
+    width: 100%;
+    height: auto;
+  }
+  .aboutme {
+    font-size: 2rem;
+    padding-top: 30px;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 215, 187);
+  }
+  .button{
+    padding: 1px 20px;
+  }
+  
+  .intro {
+    font-size: 1rem;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: unset;
+    font-style: normal;
+    font-family: "Fuggles", cursive;
+    font-family: "Raleway", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+  }
+  
+  .container2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 10px;
+  }
+  
+  .details2 {
+    font-size: 1rem;
+    padding: 10px 5px;
+    color: rgb(0, 215, 187);
+    font-weight: bold;
+  }
+  
+  .details3 {
+    font-size: 1rem;
+    padding: 10px 5px;
+    color: white;
+  }
 
-.name {
-  font-size: 3rem;
-  font-weight: bold;
-  color: rgb(249, 249, 249);
-}
-.career {
-  font-size: 1rem;
-  color: white;
-}
+  .education {
+    width: 100%;
+    height: auto;
+  }
+
+  .education p {
+    font-size: 2rem;
+    padding: 10px;
+  }
+  
+  .edu {
+    font-size: 1rem;
+    padding-top: 10px;
+  }
+
+  .skills {
+    width: 100%;
+    height: auto;
+    padding: 4vh 15%;
+  }
+  .skills p {
+    font-size: 2rem;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    color: rgb(0, 215, 187);
+  }
+  .projects {
+    height: auto;
+  }
+  .projects span {
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  
+  .projects1 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 15px;
+    color: rgb(0, 215, 187);
+  }
+  
+  .container1 {
+    padding: 10px 15px;
+  }
+  
+  .textbox {
+    padding: 5px 10px;
+    background: rgb(243, 239, 239);
+    border-radius: 15px;
+    font-size: 0.r5em;
+  }
+  
+  .textbox h4 {
+    color: rgb(0, 215, 187);
+    padding-bottom: 5px;
+    font-size: 1rem;
+  }
+  .textbox p {
+    letter-spacing:unset;
+  }
+  .contactme{
+    height: auto;
+  }
+
+  .form-label {
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(0, 215, 187);
+  }
+  .contact1 {
+    text-align: center;
+    color: rgb(0, 215, 187);
+    font-size: 2rem;
+  }
+
 }
