@@ -598,3 +598,173 @@
     line-height: 1;
 }
 }
+
+
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+  /* .sidebar li a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 15px;
+  } */
+  div.content {
+    margin-left: 0;
+  }
+  .hello{
+    font-size: 2rem;
+  }
+
+  .name {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  .career {
+    font-size: 1.6rem;
+  }
+  .details .main {
+    font-size: 2.6rem;
+  }
+  .containerinfo .sidebar li a {
+    text-align: center;
+    float: none;
+    width: fit-content;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .sidebar {
+    top: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 50px;
+  }
+  .sidebar li a {
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: unset;
+    position: relative;
+  }
+  .containerinfo {
+    display: flex;
+    height: auto;
+  }
+  .about {
+    height: auto;
+  }
+  .aboutme {
+    font-size: 2rem;
+    padding-top: 30px;
+    align-items: center;
+    text-align: center;
+  }
+  .button {
+    padding: 1px 20px;
+  }
+
+  .intro {
+    font-size: 1rem;
+    padding: 10px;
+    letter-spacing: unset;
+  }
+
+  .container2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 10px;
+  }
+
+  .details2 {
+    font-size: 1rem;
+    padding: 10px 5px;
+
+  }
+
+  .details3 {
+    font-size: 1rem;
+    padding: 10px 5px;
+  }
+
+  .education {
+    height: auto;
+  }
+
+  .education p {
+    font-size: 2rem;
+    padding: 10px;
+  }
+
+  .edu {
+    font-size: 1rem;
+    padding-top: 10px;
+  }
+
+  .skills {
+    height: auto;
+    padding: 4vh 15%;
+  }
+  .skills p {
+    font-size: 2rem;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+  }
+  .projects {
+    height: auto;
+  }
+  .projects span {
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .projects1 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 15px;
+  }
+
+  .container1 {
+    padding: 10px 15px;
+  }
+
+  .textbox {
+    padding: 5px 10px;
+    font-size: 0.5em;
+  }
+
+  .textbox h4 {
+    padding-bottom: 5px;
+    font-size: 1rem;
+  }
+  .textbox p {
+    letter-spacing: unset;
+  }
+  .contactme {
+    height: auto;
+  }
+
+  .form-label {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .contact1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .footer-basic .copyright {
+    margin-top: 5px;
+    font-size: 0.8rem;
+  }
+  .footer-basic li {
+    padding: 0 5px;
+}
+  .footer-basic ul {
+    line-height: 1;
+}
+}
+
